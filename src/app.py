@@ -22,51 +22,46 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 # In-memory activity database
 activities = {
     "Chess Club": {
-        {
             "description": "Learn strategies and compete in chess tournaments",
             "schedule": "Fridays, 3:30 PM - 5:00 PM",
             "max_participants": 12,
             "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
             },
-            "Basketball Team": {
+    "Basketball Team": {
             "description": "Join our competitive basketball team and participate in league games",
             "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
             "max_participants": 15,
             "participants": ["james@mergington.edu"]
             },
-            "Tennis Club": {
+    "Tennis Club": {
             "description": "Learn tennis skills and compete in friendly matches",
             "schedule": "Tuesdays and Thursdays, 3:30 PM - 5:00 PM",
             "max_participants": 16,
             "participants": ["sarah@mergington.edu"]
             },
-            "Art Studio": {
+    "Art Studio": {
             "description": "Explore painting, drawing, and mixed media techniques",
             "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
             "max_participants": 18,
             "participants": ["isabella@mergington.edu", "lucas@mergington.edu"]
             },
-            "Drama Club": {
+    "Drama Club": {
             "description": "Perform in school plays and develop acting skills",
             "schedule": "Mondays and Thursdays, 4:00 PM - 5:30 PM",
             "max_participants": 20,
             "participants": ["ava@mergington.edu"]
             },
-            "Debate Team": {
+    "Debate Team": {
             "description": "Develop argumentation and public speaking skills through competitive debate",
             "schedule": "Tuesdays, 3:30 PM - 5:00 PM",
             "max_participants": 12,
             "participants": ["alexander@mergington.edu", "sophia@mergington.edu"]
             },
-            "Science Club": {
+    "Science Club": {
             "description": "Conduct experiments and explore physics, chemistry, and biology",
             "schedule": "Fridays, 3:30 PM - 4:30 PM",
             "max_participants": 20,
             "participants": ["mia@mergington.edu"]
-        "description": "Learn strategies and compete in chess tournaments",
-        "schedule": "Fridays, 3:30 PM - 5:00 PM",
-        "max_participants": 12,
-        "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
     },
     "Programming Class": {
         "description": "Learn programming fundamentals and build software projects",
